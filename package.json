@@ -1,15 +1,19 @@
 {
-  "name": "social-media-backend",
-  "version": "1.0.0",
-  "description": "A backend for social media app",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "JavaScript",
-    "Backend"
-  ],
-  "author": "Om Londhe",
-  "license": "ISC"
+	"name": "social-media-backend",
+	"version": "1.0.0",
+	"description": "A backend for social media app",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"keywords": [
+		"JavaScript",
+		"Backend"
+	],
+	"author": "Om Londhe",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.0.2"
+	}
 }
